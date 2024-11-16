@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            padding: 10px 10px;
+            color: white;
+        }
+        .paragraph-text {
+            color: hsl(0, 0%, 99%);
+            margin: 10px 10px;
+        }
+        .title {
+            color: white;
+        }
+        .container {
+            border-style: solid;
+            border-width: 3px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            margin: 50px;
+            width: 100%;
+            height: auto;
+        }
+        .card{
+            border-style: solid;
+            border-width: 1px;
+        }
+        .card1 {
+            background-color: hsl(31, 77%, 52%);
+        }
+        .card2 {
+            background-color: hsl(184, 100%, 22%);
+        }
+        .card3 {
+            background-color: hsl(179, 100%, 13%);
+        }
+        .btn{
+            border-radius: 15px;
+            margin-bottom: 20px;
+            width: 100px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card card1">
+            <p class="paragraph-text">
+                <span class="title">
+                    <h1>Sedans</h1>
+                </span>
+                Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+                or on your next road trip.
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="card card2">
+            <p class="paragraph-text">
+                <span class="title">
+                    <h1> SUVs</h1>
+                </span>
+                Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+                and off-road adventures.
+
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+        <div class="card card3">
+            <p class="paragraph-text">
+                <span class="title">
+                    <h1>Luxury</h1>
+                </span>
+                Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+                rental and arrive in style.
+
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+    </div>
+</body>
+
+</html>
