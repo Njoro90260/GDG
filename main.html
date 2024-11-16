@@ -5,25 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <style>
-        body{
+        body {
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: "Big Shoulders Display";
         }
-        p{
+
+        p {
             padding: 10px 10px;
             color: white;
         }
+
+        h1 {
+            color: white;
+        }
+
         .paragraph-text {
             color: hsl(0, 0%, 99%);
             margin: 10px 10px;
         }
+
         .title {
             color: white;
         }
+
         .container {
-            border-style: solid;
+            border: none;
             border-width: 3px;
             border-radius: 10px;
             display: flex;
@@ -32,26 +44,36 @@
             width: 100%;
             height: auto;
         }
-        .card{
-            border-style: solid;
+
+        .card {
+            border: none;
             border-width: 1px;
         }
+
         .card1 {
-            background-color: hsl(31, 77%, 52%);
+            background-color: #E38826;
         }
+
         .card2 {
-            background-color: hsl(184, 100%, 22%);
+            background-color: #006970;
         }
+
         .card3 {
-            background-color: hsl(179, 100%, 13%);
+            background-color: #004241;
         }
-        .btn{
+
+        .btn {
             border-radius: 15px;
             margin-bottom: 20px;
+            margin-left: 20px;
             width: 100px;
             height: 50px;
             display: flex;
             align-items: center;
+        }
+
+        .btn:hover {
+            cursor: pointer;
         }
     </style>
 </head>
@@ -59,7 +81,7 @@
 <body>
     <div class="container">
         <div class="card card1">
-            <p class="paragraph-text">
+            <p class="paragraph-text" style="color: white;">
                 <span class="title">
                     <h1>Sedans</h1>
                 </span>
